@@ -33,7 +33,7 @@ The all() method returns a QuerySet of all the objects in the database.
 #### filter()
 
 It is used to retrive only specific objects based on the condition which is specified.
-It is simiar to **WHERE** clause in SQL.
+It is similar to **WHERE** clause in SQL.
 
 Eg:-
 
@@ -332,3 +332,9 @@ Inside view function use transaction.atomic() for the unit to which you need to 
 with transaction.atomic():
     do_more_stuff()
 ```
+
+### References
+
+1. https://docs.djangoproject.com/en/4.0/topics/db/aggregation/
+2. https://docs.djangoproject.com/en/4.0/topics/migrations/
+3. https://docs.djangoproject.com/en/4.0/
